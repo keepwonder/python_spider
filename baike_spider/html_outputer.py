@@ -3,7 +3,7 @@
 # @author: Johnathon Qiang
 # @file  : html_outputer.py 
 # @time  : 2017/09/09 20:49:06
-# @description：to be filled
+# @description：输出页面
 import urllib.parse
 
 
