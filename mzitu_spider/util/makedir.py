@@ -26,4 +26,4 @@ class MakeDir(object):
             os.chdir(full_path)
             return True
         else:
-            print('名字叫做{}的文件夹已经存在！！！')
+            print('名字叫做<{}>的文件夹已经存在！！！'.format(path))
