@@ -6,8 +6,7 @@
 # @description：to be filled
 from bs4 import BeautifulSoup
 from python_spider_action.mzitu_spider.download import download_v3
-from python_spider_action.mzitu_spider.util import save_v3
-from python_spider_action.mzitu_spider.util import mongoUtil, makedir
+from python_spider_action.mzitu_spider.util import save_v3, mongoUtil, makedir
 import datetime
 
 
@@ -52,7 +51,7 @@ class ParseHtml(object):
         :param url: 举例：http://www.mzitu.com/103886
         :return:
         """
-        print('开始第一层爬取{}'.format(url))
+        print('开始第一层爬取: {}'.format(url))
         page = self.download.download_html(url, 3)
         soup = BeautifulSoup(page.text, 'lxml')
         max_page = soup.find('div', class_='pagenavi').find_all('span')[-2].get_text()
