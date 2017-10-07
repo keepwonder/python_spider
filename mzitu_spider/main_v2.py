@@ -1,7 +1,7 @@
 #!usr/bin/env python  
 # -*- coding:utf-8 -*-  
 # @author: Johnathon Qiang
-# @file  : main.py 
+# @file  : train_spider.py 
 # @time  : 2017/09/26 13:23:13
 # @description：to be filled
 from python_spider_action.mzitu_spider.parse import parse_v2

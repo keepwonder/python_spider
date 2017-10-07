@@ -1,7 +1,7 @@
 #!usr/bin/env python  
 # -*- coding:utf-8 -*-  
 # @author: Johnathon Qiang
-# @file  : main.py
+# @file  : train_spider.py
 # @time  : 2017/09/07 21:25:11
 # @description：to be filled
 
